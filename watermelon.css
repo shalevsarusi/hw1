@@ -1,0 +1,108 @@
+html{
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    font-family: Papyrus, sans-serif;
+}
+
+header {
+    background-color: #d9ba14;
+    font-size: larger;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    background-color: rgb(4 4 77);
+    padding: 10px;
+    justify-content: space-around;
+}
+
+nav a {
+    color: #bea307;
+   
+}
+#section1 {
+    background-color: rgb(6, 197, 245);
+}
+#section2 {
+    background-color: rgb(10, 175, 38);
+}
+#section3 {
+    background-color: rgb(206, 83, 83);
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.flex-container img {
+    height: 350px;
+    width: 500px;
+}
+
+.columns {
+    display: flex;
+    flex-direction: column;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    overflow-x: auto;
+    background-color: #ffffff;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.card {
+    width: 200px;
+    height: 320px;
+    margin: 10px;
+    border: 1px solid #ccc;
+   
+}
+
+.card img {
+    width: 100%;
+    max-height: 180px;
+    min-height: 180px;
+    object-fit: cover;
+}
+.card p {
+    height: 140px; 
+    overflow: hidden;
+    padding: 10px;
+}
+
+footer {
+    background-color: #333; /* Change the background color as needed */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.footer-background {
+    background-image: url('./images/601_Blog_pic_b2.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px; 
+}
