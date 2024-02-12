@@ -3,7 +3,7 @@ html{
 }
 body {
     margin: 0;
-    font-family: Papyrus, sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 header {
@@ -23,13 +23,13 @@ nav a {
     color: #bea307;
    
 }
-#section1 {
+#Watermeloninfo {
     background-color: rgb(6, 197, 245);
 }
-#section2 {
+#Watermelon_flavor {
     background-color: rgb(10, 175, 38);
 }
-#section3 {
+#WatermelonVitamins {
     background-color: rgb(206, 83, 83);
 }
 
