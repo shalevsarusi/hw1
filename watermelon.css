@@ -7,24 +7,25 @@ body {
 }
 
 header {
-    background-color: #d9ba14;
+    background-color: #2ae759;
     font-size: larger;
 }
 
 nav ul {
     list-style: none;
     display: flex;
-    background-color: rgb(4 4 77);
+    background-color: rgb(161, 159, 159);
     padding: 10px;
     justify-content: space-around;
 }
 
+
 nav a {
-    color: #bea307;
+    color: #171b16;
    
 }
 #Watermeloninfo {
-    background-color: rgb(6, 197, 245);
+    background-color: rgb(158, 196, 206);
 }
 #Watermelon_flavor {
     background-color: rgb(10, 175, 38);
